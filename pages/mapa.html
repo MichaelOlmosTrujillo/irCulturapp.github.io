@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <link rel="stylesheet" href="../estilos/mapa.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+        <a class="navbar-brand" href="../index.html">Logo</a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Centros Culturales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/mapa.html">Mapa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Videos y escenarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Merchandising</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Calendario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">información</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Final del nav bar -->
+    <div class="relativa">
+        <div id="infoMapa" class="absoluta">
+            <h3>Concierto de música andina: Chila Jatun</h3>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/chilajatunbo/">¡Conoce el grupo!</a>
+                </li>
+            </ul>
+            <button id="botonCerrarInfo">Cerrar</button>
+        </div>
+
+    </div>
+    <div class="mapaPropiedades ">
+        <div class="mapa" id="mapid"></div>
+        <div>
+            <ol class="">
+                <li class="">
+                    <a href="#" class="text-decoration-none">hola</a>
+                </li>
+                  <li>
+                    <a href="#"class="text-decoration-none">hola</a>
+                </li>
+                  <li>
+                    <a href="#"class="text-decoration-none">hola</a>
+                </li>
+                  <li>
+                    <a href="#"class="text-decoration-none">hola</a>
+                </li>
+                  <li>
+                    <a href="#"class="text-decoration-none">hola</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="d-flex justify-content-center align-items-center flex-column">
+        <h3>Contáctenos</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, amet?</p>
+        <p>cel:123123123</p>
+        <p>cel:123123123</p>
+
+    </footer>
+    <!-- Fin del footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- <img src="./images/leaf-green.png" alt=""> -->
+    <script src="../js/mapas.js"></script>
+</body>
+
+</html>
