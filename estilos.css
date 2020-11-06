@@ -9,3 +9,9 @@
 .row .card{
     margin: 100px 50px;
 }
+.navbar-nav li{
+    margin: 0 35px;
+}
+.marginMenu{
+    margin-right: 150px;
+}
