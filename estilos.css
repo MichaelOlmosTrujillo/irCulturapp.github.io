@@ -9,8 +9,11 @@
 .row .card{
     margin: 100px 50px;
 }
+.navbar-nav{
+    font-size: 0.8rem;
+}
 .navbar-nav li{
-    margin: 0 10px;
+    margin: 0 20px;
 }
 .marginMenu{
     margin-right: 50px;
