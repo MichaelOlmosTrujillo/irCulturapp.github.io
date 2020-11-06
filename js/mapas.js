@@ -94,4 +94,3 @@ function cerrarInfo(){
 markerNaranja.on('click', alertaNaranja);
 markerRojo.on('click', desplegarInfo);
 
-botonCerrarInfo.addEventListener('click', cerrarInfo);
