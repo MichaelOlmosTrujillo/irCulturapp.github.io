@@ -13,12 +13,13 @@ body{
     position: relative;
     display: flex;
 justify-content: center;
+margin-bottom: 50px;
 }
 .absoluta{
     position: absolute;
     z-index: 2000;
     font-size: 30px;
-    top: -300px;
+    top: -2700px;
     transition: top 1s ease;
     background-color: rgba(0, 0, 0, 0.431);
     border-radius: 10px;

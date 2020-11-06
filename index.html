@@ -7,16 +7,25 @@
     <!-- Css de bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos.css">
+<!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
 
+<!--final de Leaflet -->   
+
+    <link rel="stylesheet" href="./estilos.css">
+<!-- Estilos del mapa -->
+ <link rel="stylesheet" href="./estilos/mapa.css">
+<!-- Final de los estilos del mapa -->
     <title>irCulturapp</title>
 </head>
 
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
-        <a class="navbar-brand marginMenu ml-5" href="#">Logo</a>
+        <a class="navbar-brand marginMenu" href="#">Logo</a>
 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -30,7 +39,7 @@
                     <a class="nav-link" href="#">Centros Culturales</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./pages/mapa.html">Mapa</a>
+                    <a class="nav-link" href="#mapid">Mapa</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Videos y escenarios</a>
@@ -42,7 +51,7 @@
                     <a class="nav-link" href="#">Calendario</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">información</a>
+                    <a class="nav-link" href="#footer">información</a>
                 </li>
             </ul>
         </div>
@@ -74,7 +83,7 @@
     <!-- Fin del carrusel -->
 
     <!-- Main de los eventos culturales -->
-    <main class="row justify-content-center align-items-center">
+    <main class="row justify-content-center align-items-center" >
         <!-- Cards de centros culturales -->
         <div class="card" style="width: 18rem;">
             <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
@@ -85,7 +94,7 @@
 
 
         <!-- Cards del mapa -->
-<a href="./pages/mapa.html" class="text-decoration-none">
+<a href="#mapid" class="text-decoration-none">
         <div class="card" style="width: 18rem;">
             <img src="./images/mapa.jpg" class="card-img-top" alt="...">
             <div class="card-body justify-content-center d-flex">
@@ -129,9 +138,16 @@
         </div>
     </main>
     <!-- Fin del Main de los eventos culturales -->
+    <!-- Mapa -->
+<section >
+<div class="relativa">
+        
+        <div class="mapa" id="mapid"></div>
+    </div>
 
+</section>
     <!-- Footer -->
-    <footer class="d-flex justify-content-center align-items-center flex-column">
+    <footer id="footer" class="d-flex justify-content-center align-items-center flex-column">
         <h3>Contáctenos</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, amet?</p>
         <p>cel:123123123</p>
@@ -141,6 +157,13 @@
     <!-- Fin del footer -->
 
 
+
+<!-- Script de leaflet -->
+
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+<!-- Final del script de leaflet -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -150,6 +173,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
     </script>
+<!-- Script de sweet alert -->
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     <!-- Final del script de sweet alert -->
+     <!-- Script del mapa -->
+     <script src="./js/mapas.js"></script>
+     <!-- Final del script del mapa -->
 </body>
 
 </html>

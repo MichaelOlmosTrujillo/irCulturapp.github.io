@@ -41,8 +41,8 @@ mymap.on('click', onMapCLick);
 
 // Creación de un marker propio
 var greenIcon = L.icon({
-    iconUrl:'../images/mapa/leaf-green.png',
-    shadowUrl:'../images/mapa/leaf-shadow.png',
+    iconUrl:'./images/mapa/leaf-green.png',
+    shadowUrl:'./images/mapa/leaf-shadow.png',
     iconSize: [38,95],
     shadowSize:[50,64],
     iconAnchor:[22,94], // point of the icon which will correspond to marker's location
@@ -56,7 +56,7 @@ marker3.bindPopup("<h4> Soy una hoja verde</h4>")
 //Clase de icons
 var LeafIcon = L.Icon.extend({
     options:{
-        shadowUrl: '../images/mapa/leaf-shadow.png',
+        shadowUrl: './images/mapa/leaf-shadow.png',
         iconSize: [38,95],
         shadowSize: [50,64],
         iconAnchor: [22,94],
@@ -64,9 +64,9 @@ var LeafIcon = L.Icon.extend({
         popupAnchor:[-3, -76]
     }
 }) 
-var iconoVerde = new LeafIcon({iconUrl:'../images/mapa/leaf-green.png'}),
-    iconoRojo = new LeafIcon({iconUrl: '../images/mapa/leaf-red.png'}),
-    iconoNaranja = new LeafIcon({iconUrl: '../images/mapa/leaf-orange.png'});
+var iconoVerde = new LeafIcon({iconUrl:'./images/mapa/leaf-green.png'}),
+    iconoRojo = new LeafIcon({iconUrl: './images/mapa/leaf-red.png'}),
+    iconoNaranja = new LeafIcon({iconUrl: './images/mapa/leaf-orange.png'});
 
 L.icon = function (opciones){
     return new L.Icon(opciones);
