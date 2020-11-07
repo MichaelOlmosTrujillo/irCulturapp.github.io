@@ -54,10 +54,10 @@ var mapaIcono1 = L.marker([4.778308, -74.170238], {icon:mapaIcono}).addTo(mymap)
 // marker3.bindPopup("<h4> Soy una hoja verde</h4>")
 
 //Clase de icons
-var LeafIcon = L.Icon.extend({
+var mapaIcon = L.Icon.extend({
     options:{
-        shadowUrl: './images/mapa/leaf-shadow.png',
-        iconSize: [38,95],
+        // shadowUrl: './images/mapa/leaf-shadow.png',
+        iconSize: [70,95],
         shadowSize: [50,64],
         iconAnchor: [22,94],
         shadowAnchor:[4,62],
@@ -72,14 +72,20 @@ L.icon = function (opciones){
     return new L.Icon(opciones);
 };
 
-// let markerVerde = L.marker([4.789598, -74.024136], {icon: iconoVerde}).addTo(mymap).bindPopup('Soy una hoja verde');
-// let markerRojo = L.marker([4.742897, -74.182085], {icon:iconoRojo}).addTo(mymap).bindPopup('<i>Soy una hoja roja</i>');
-// let markerNaranja = L.marker([4.803796, -74.113926], {icon:iconoNaranja}).addTo(mymap).bindPopup('<strong> Soy una hoja naranja </strong>');
+ let iconoMapa2 = L.marker([4.789598, -74.024136], {icon: mapaIcono}).addTo(mymap);
+ let iconoMapa3 = L.marker([4.942897, -74.182085], {icon:mapaIcono}).addTo(mymap);
+ let iconoMapa4 = L.marker([4.673796, -74.113926], {icon:mapaIcono}).addTo(mymap);
 
-function alertaNaranja(){
+function eventoSwal1(){
     // alert('Funciona el click')
     // console.log(infoMapa);
     swal("¡Milonga!", "¡Ven a bailar tango!");
+}
+
+function eventoSwal2(){
+    // alert('Funciona el click')
+    // console.log(infoMapa);
+    swal("Teatro!", "¡Ven a teatro!");
 }
 
 function desplegarInfo(){
@@ -91,6 +97,6 @@ function cerrarInfo(){
     let infoMapa = document.getElementById("infoMapa");
     infoMapa.style.top = "-300px"
 }
-// markerNaranja.on('click', alertaNaranja);
-// markerRojo.on('click', desplegarInfo);
+ mapaIcono1.on('click',eventoSwal1);
+ iconoMapa2.on('click', eventoSwal2);
 

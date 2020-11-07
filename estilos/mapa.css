@@ -47,7 +47,7 @@ margin-bottom: 50px;
 /* Media query para el mapa */
 @media(max-width: 700px){
    .mapa{
-           width: 80vw;
+        width: 80vw;
    } 
 }
 .mapaPropiedades{
