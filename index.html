@@ -22,7 +22,8 @@
 </head>
 
 <body>
-    <!-- Nav bar -->
+    <div class="">
+<!-- Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
         <a class="navbar-brand marginLogo" href="#">
@@ -89,28 +90,29 @@
         </a>
     </div>
     <!-- Fin del carrusel -->
-<!--  -->
-<!--  -->
+
     <!-- Main de los eventos culturales -->
     <main class="row justify-content-center align-items-center" >
         <!-- Cards de centros culturales -->
-        <div class="card" style="width: 18rem;">
-            <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
-            <div class="card-body justify-content-center d-flex">
-                <p class="card-text">Centros culturales</p>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
+                <div class="card-body justify-content-center d-flex">
+                    <p class="card-text">Centros culturales</p>
+                </div>
             </div>
-        </div>
 
 
         <!-- Cards del mapa -->
-<a href="#mapid" class="text-decoration-none">
+
         <div class="card" style="width: 18rem;">
-            <img src="./images/mapa.jpg" class="card-img-top" alt="...">
+          <a href="#mapid">
+              <img src="./images/mapa.jpg" class="card-img-top" alt="...">
+          </a>  
             <div class="card-body justify-content-center d-flex">
-                <p class="card-text">Mapa</p>
+            <a href="#mapid">Mapa</a>   
             </div>
         </div>
-</a>
+
         <!-- Card de videos y escenarios -->
         <div class="card" style="width: 18rem;">
             <img src="./images/escenarios.jpg" class="card-img-top" alt="...">
@@ -145,25 +147,27 @@
                 <p class="card-text">Información</p>
             </div>
         </div>
-    </main>
+    </main> 
     <!-- Fin del Main de los eventos culturales -->
     <!-- Mapa -->
-<section >
+ <section >
 <div class="relativa">
         
         <div class="mapa" id="mapid"></div>
     </div>
 
-</section>
+</section> 
     <!-- Footer -->
-    <footer id="footer" class="d-flex justify-content-center align-items-center flex-column">
+     <footer id="footer" class="d-flex justify-content-center align-items-center flex-column">
         <h3>Contáctenos</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, amet?</p>
         <p>cel:123123123</p>
         <p>cel:123123123</p>
 
-    </footer>
+    </footer> 
     <!-- Fin del footer -->
+    </div>
+    
 
 
 
