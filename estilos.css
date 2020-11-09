@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+}
 .row{
     margin: 0;
 }
@@ -30,3 +33,23 @@
 .marginCarrusel{
     margin-top: 100px;
 }
+
+/*Formulario de registro*/
+.registro{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+}
+.registroForm{
+    width: 300px;
+    z-index: 3000;
+    position: absolute;
+    background-color: rgba(137, 43, 226, 0.664);
+    border-radius: 10px;
+    padding:20px;
+    color: rgb(202, 136, 49);
+    top: -500px;
+    transition: top 1s ease;
+   
+}
+/*Fin del Formulario de registro*/
