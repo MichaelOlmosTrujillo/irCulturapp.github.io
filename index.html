@@ -69,7 +69,7 @@
         </nav>
         <!-- Final del nav bar -->
 
-       
+
 
         <!-- Carrusel -->
         <div id="carouselExampleControls" class="carousel marginCarrusel" data-ride="carousel">
@@ -95,8 +95,8 @@
         </div>
         <!-- Fin del carrusel -->
 
- <!-- formulario de registro -->
-        <div class="registro" >
+        <!-- formulario de registro -->
+        <div class="registro">
             <form action="" id="formRegistro" class="registroForm d-flex flex-column align-items-center">
                 <div class="form-group">
                     <label for="nombre" id="nombre">Nombre</label>
@@ -112,11 +112,38 @@
                     <input type="password" class="form-control" id="pass">
 
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div>
+                    <button type="submit" class="btn btn-primary">Registrar<button>
+                            <button type="button" class="btn btn-primary" id="botonCancelarRegistro">Cancelar<button>
+
+                </div>
             </form>
         </div>
 
         <!-- Final de formulario de registro -->
+
+        <!-- formulario de iniciar Sesión -->
+        <div class="registro">
+            <form action="" id="formIniciarSesion" class="registroForm d-flex flex-column align-items-center">
+                <div class="form-group">
+                    <label for="correoForm" id="correoForm">Correo</label>
+                    <input type="email" class="form-control" id="correoForm" aria-describedby="correoForm">
+                    <small id="emailHelp" class="form-text text-muted">No compartimos su correo con nadie</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="contrasena" id="contrasena">Contraseña</label>
+                    <input type="password" class="form-control" id="contrasena">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Iniciar sesion<button>
+                            <button type="button" class="btn btn-primary" id="botonCancelarsesion">Cancelar<button>
+
+                </div>
+            </form>
+        </div>
+
+        <!-- Final de formulario de iniciar sesión -->
 
         <!-- Main de los eventos culturales -->
         <main class="row justify-content-center align-items-center">
@@ -186,10 +213,17 @@
         </section>
         <!-- Footer -->
         <footer id="footer" class="d-flex justify-content-center align-items-center flex-column">
-            <h3>Contáctenos</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, amet?</p>
-            <p>cel:123123123</p>
-            <p>cel:123123123</p>
+
+            <div>
+                <h3>Contáctenos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, amet?</p>
+                <p>cel:123123123</p>
+                <p>cel:123123123</p>
+                
+            </div>
+            <div class="logoFilarmonicaBogota">
+                <img src="./images/sponsorsProyecto/Logo-OFB-BOGOTA-Blanco.png" alt="logoFilarmonicaBogota">
+            </div>
 
         </footer>
         <!-- Fin del footer -->
@@ -216,9 +250,9 @@
     <!-- Script de sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Final del script de sweet alert -->
-<!-- Script index.js -->
-<script src="./js/index.js"></script>
-<!-- Final del index.js -->
+    <!-- Script index.js -->
+    <script src="./js/index.js"></script>
+    <!-- Final del index.js -->
 
     <!-- Script del mapa -->
     <script src="./js/mapas.js"></script>
