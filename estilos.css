@@ -59,8 +59,10 @@ footer{
     background-color: darkmagenta;
 }
 .logoFilarmonicaBogota img{
-    
+    max-width: 100%;
 }
-
+.infoFooter{
+    text-align: center;
+}
 
 /* Final del Footer */
