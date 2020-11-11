@@ -26,3 +26,8 @@ iniciarSesionBoton.addEventListener('click', (e)=>{
     e.preventDefault();
 formIniciarSesion.style.top = "100px"
 })
+
+//Script para cambiar el tiempo en el carrusel de bootstrap
+$('.carousel').carousel({
+  interval: 1000 * 8
+});

@@ -33,6 +33,10 @@ body{
 .marginCarrusel{
     margin-top: 100px;
 }
+.carousel-item img{
+    width: 100px;
+    max-width: 100%;
+}
 
 .view video{
     width: 100%;
