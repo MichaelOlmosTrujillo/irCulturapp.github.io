@@ -1,3 +1,16 @@
+@font-face {
+font-family: 'lato';
+src: url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Black.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-BlackItalic.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Bold.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-BoldItalic.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Italic.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Light.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-LightItalic.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Regular.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Thin.ttf'),
+url('./estilos/fontFamilyIrCulturapp/Lato/Lato-ThinItalic.ttf'),
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +20,7 @@
 body {
     position: relative;
     background-color: #E9E1CD;
+    font-family: "lato";
 }
 nav{
     background-color: #E9E1CD;
@@ -59,12 +73,12 @@ nav{
 @media (min-width: 1200px) {
     .carousel-item img {
       
-        height: 600px;
+        height: 510px;
     }
 
     .view video {
        
-        height: 600px;
+        height: 510px;
     }
 
   
@@ -81,7 +95,7 @@ nav{
     width: 300px;
     z-index: 3000;
     position: absolute;
-    background-color: rgba(137, 43, 226, 0.664);
+    background-color: #3D3342;
     border-radius: 10px;
     padding: 20px;
     color: rgb(202, 136, 49);
