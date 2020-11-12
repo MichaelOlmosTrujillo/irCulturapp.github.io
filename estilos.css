@@ -1,75 +1,108 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     position: relative;
+    background-color: #E9E1CD;
 }
-.row{
+nav{
+    background-color: #E9E1CD;
+}
+.row {
     margin: 0;
 }
-.row .card{
+
+.row .card {
     margin: 100px 50px;
 }
-.navbar{
+
+.navbar {
     padding: 0 5px 0 0;
 }
-.navbar-nav{
+
+.navbar-nav {
     font-size: 0.8rem;
 }
-.navbar-nav li{
+
+.navbar-nav li {
     margin: 0 22px;
 }
-.marginLogo{
+
+.marginLogo {
     margin-right: 50px;
     margin-left: 30px;
     padding-bottom: 0px;
 }
-.marginBotonCollapse{
+
+.marginBotonCollapse {
     margin-right: 5px;
 }
+
 /* Clases del carrusel */
-.marginCarrusel{
+.marginCarrusel {
     margin-top: 100px;
 }
-.carousel-item img{
-    width: 100px;
-    max-width: 100%;
-}
 
-.view video{
+.carousel-item img {
     width: 100%;
     max-width: 100%;
 }
+
+.view video {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .carousel-item img {
+      
+        height: 600px;
+    }
+
+    .view video {
+       
+        height: 600px;
+    }
+
+  
+}
+
 /*Formulario de registro*/
-.registro{
+.registro {
     /* position: relative; */
     display: flex;
     justify-content: center;
 }
-.registroForm{
+
+.registroForm {
     width: 300px;
     z-index: 3000;
     position: absolute;
     background-color: rgba(137, 43, 226, 0.664);
     border-radius: 10px;
-    padding:20px;
+    padding: 20px;
     color: rgb(202, 136, 49);
     top: -500px;
     transition: top 1s ease;
-   
+
 }
+
 /*Fin del Formulario de registro*/
 
 /* Footer */
-footer{
-    background-color: darkmagenta;
+footer {
+    background-color: #3D3342;
+    color:  #E9E1CD;
 }
-.logoFilarmonicaBogota img{
+
+.logoFilarmonicaBogota img {
     max-width: 100%;
 }
-.infoFooter{
+
+.infoFooter {
     text-align: center;
 }
 
