@@ -22,15 +22,17 @@ body {
     background-color: #E9E1CD;
     font-family: "lato";
 }
-nav{
-    background-color: #E9E1CD;
-}
+
 .row {
     margin: 0;
 }
 
 .row .card {
     margin: 100px 50px;
+}
+/*Inicio clases del nav*/
+nav{
+    background-color: #E9E1CD;
 }
 
 .navbar {
@@ -54,6 +56,8 @@ nav{
 .marginBotonCollapse {
     margin-right: 5px;
 }
+/*Fin clases del nav*/
+
 
 /* Clases del carrusel */
 .marginCarrusel {
@@ -72,14 +76,20 @@ nav{
 
 @media (min-width: 1200px) {
     .carousel-item img {
-      
-        height: 510px;
+      width: 70%;
+        height: 590px;
+        margin: 0 auto;
     }
 
     .view video {
        
-        height: 510px;
+        height: 590px;
     }
+
+    .marginLogo {
+    margin-right: 350px;
+   margin-left: 100px;
+}
 
   
 }
@@ -105,7 +115,27 @@ nav{
 }
 
 /*Fin del Formulario de registro*/
+/* Estilos de las cards */
+.card{
+    box-shadow: 5px 5px 20px;
+    cursor: pointer;
+}
 
+/* Fin de los Estilos de las cards */
+/* Card mapa */
+
+.card-body a{
+    text-decoration: none;
+    color: black;
+} 
+/* Fin card mapa */
+
+/*Clases centros culturales*/
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*Fin de las clases de centros culturales*/
 /* Footer */
 footer {
     background-color: #3D3342;

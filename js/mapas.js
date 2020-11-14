@@ -43,7 +43,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 var mapaIcono = L.icon({
     iconUrl:'./images/logo/logo mapa-03.png',
     // shadowUrl:'./images/mapa/leaf-shadow.png',
-    iconSize: [60,75],
+    iconSize: [50,55],
     shadowSize:[50,64],
     iconAnchor:[22,94], // point of the icon which will correspond to marker's location
     shadowAnchor: [4, 62], // point of the shadow which will correspond to marker's location
