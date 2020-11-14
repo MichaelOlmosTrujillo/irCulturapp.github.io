@@ -44,7 +44,7 @@ nav{
 }
 
 .navbar-nav li {
-    margin: 0 22px;
+    margin: 0 15px;
 }
 
 .marginLogo {
@@ -76,14 +76,14 @@ nav{
 
 @media (min-width: 1200px) {
     .carousel-item img {
-      width: 70%;
-        height: 590px;
+      width: 60%;
+        height: 510px;
         margin: 0 auto;
     }
 
     .view video {
        
-        height: 590px;
+        height: 510px;
     }
 
     .marginLogo {
