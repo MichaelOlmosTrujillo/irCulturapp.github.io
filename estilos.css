@@ -141,7 +141,10 @@ footer {
     background-color: #3D3342;
     color:  #E9E1CD;
 }
+footer a{
+        color:  #E9E1CD;
 
+}
 .logoFilarmonicaBogota img {
     max-width: 100%;
 }
