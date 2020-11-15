@@ -94,7 +94,7 @@ nav {
     }
 
     .logoFooter {
-        margin: 0 150px;
+        margin: 1px 20px;
         max-width: 100%;
     }
 
@@ -165,5 +165,8 @@ footer a {
 
 .logoFooter {
     max-width: 100%;
+    width: 80px;
+    background-color: #E9E1CD;
+    border-radius: 30px;
 }
 /* Final del Footer */
