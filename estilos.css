@@ -1,16 +1,17 @@
 @font-face {
-font-family: 'lato';
-src: url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Black.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-BlackItalic.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Bold.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-BoldItalic.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Italic.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Light.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-LightItalic.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Regular.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Thin.ttf'),
-url('./estilos/fontFamilyIrCulturapp/Lato/Lato-ThinItalic.ttf'),
+    font-family: 'lato';
+    src: url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Black.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-BlackItalic.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Bold.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-BoldItalic.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Italic.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Light.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-LightItalic.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Regular.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-Thin.ttf'),
+        url('./estilos/fontFamilyIrCulturapp/Lato/Lato-ThinItalic.ttf'),
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -30,8 +31,9 @@ body {
 .row .card {
     margin: 100px 50px;
 }
+
 /*Inicio clases del nav*/
-nav{
+nav {
     background-color: #E9E1CD;
 }
 
@@ -56,6 +58,7 @@ nav{
 .marginBotonCollapse {
     margin-right: 5px;
 }
+
 /*Fin clases del nav*/
 
 
@@ -76,22 +79,25 @@ nav{
 
 @media (min-width: 1200px) {
     .carousel-item img {
-      width: 60%;
+        width: 60%;
         height: 510px;
         margin: 0 auto;
     }
 
     .view video {
-       
         height: 510px;
     }
 
     .marginLogo {
-    margin-right: 350px;
-   margin-left: 100px;
-}
+        margin-right: 350px;
+        margin-left: 100px;
+    }
 
-  
+    .logoFooter {
+        margin: 0 200px;
+    }
+
+
 }
 
 /*Formulario de registro*/
@@ -116,7 +122,7 @@ nav{
 
 /*Fin del Formulario de registro*/
 /* Estilos de las cards */
-.card{
+.card {
     box-shadow: 5px 5px 20px;
     cursor: pointer;
 }
@@ -124,27 +130,30 @@ nav{
 /* Fin de los Estilos de las cards */
 /* Card mapa */
 
-.card-body a{
+.card-body a {
     text-decoration: none;
     color: black;
-} 
+}
+
 /* Fin card mapa */
 
 /*Clases centros culturales*/
-h2{
+h2 {
     text-align: center;
     margin-bottom: 50px;
 }
+
 /*Fin de las clases de centros culturales*/
 /* Footer */
 footer {
     background-color: #3D3342;
-    color:  #E9E1CD;
+    color: #E9E1CD;
 }
-footer a{
-        color:  #E9E1CD;
 
+footer a {
+    color: #E9E1CD;
 }
+
 .logoFilarmonicaBogota img {
     max-width: 100%;
 }
@@ -152,5 +161,6 @@ footer a{
 .infoFooter {
     text-align: center;
 }
+
 
 /* Final del Footer */
