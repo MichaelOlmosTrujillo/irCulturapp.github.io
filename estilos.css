@@ -95,6 +95,7 @@ nav {
 
     .logoFooter {
         margin: 0 150px;
+        max-width: 100%;
     }
 
 
@@ -162,5 +163,7 @@ footer a {
     text-align: center;
 }
 
-
+.logoFooter {
+    max-width: 100%;
+}
 /* Final del Footer */
