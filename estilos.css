@@ -47,6 +47,7 @@ nav {
 
 .navbar-nav li {
     margin: 0 15px;
+    cursor: pointer;
 }
 
 .marginLogo {
@@ -145,6 +146,10 @@ h2 {
 }
 
 /*Fin de las clases de centros culturales*/
+
+/*Estilos del modal de los centros culturales*/
+
+/* Final de los estilos del modal de los centros culturales */
 /* Footer */
 footer {
     background-color: #3D3342;
