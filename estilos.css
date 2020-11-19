@@ -141,10 +141,13 @@ nav {
 
 /* Fin de los Estilos de las cards */
 /* Card mapa */
-
+.card-body{
+        background-color: #F4C178 !important;
+        
+}
 .card-body a {
     text-decoration: none;
-    color: black;
+    color: #7A3E48 !important;
 }
 
 /* Fin card mapa */
