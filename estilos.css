@@ -16,12 +16,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     position: relative;
-    background-color: #E9E1CD;
-    font-family: "lato";
+    background-color: #FFF4DE;
+    font-family: "lato" !important;
+    font-weight: 1.5rem !important;
 }
 
 .row {
@@ -34,7 +36,8 @@ body {
 
 /*Inicio clases del nav*/
 nav {
-    background-color: #E9E1CD;
+    background-color: #F9DBAA;
+    
 }
 
 .navbar {
@@ -43,11 +46,18 @@ nav {
 
 .navbar-nav {
     font-size: 0.8rem;
+    
 }
 
 .navbar-nav li {
     margin: 0 15px;
     cursor: pointer;
+    
+}
+
+.navbar-nav li a{
+    color: #7A3E48 !important;
+    
 }
 
 .marginLogo {
