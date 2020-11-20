@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 /*Inicio clases del nav*/
 nav {
     background-color: #F9DBAA;
-    
+
 }
 
 .navbar {
@@ -46,18 +46,19 @@ nav {
 
 .navbar-nav {
     font-size: 0.8rem;
-    
+
 }
 
 .navbar-nav li {
-    margin: 0 15px;
+    margin: 0 5px;
     cursor: pointer;
-    
+    padding: 0px 10px;
+
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
     color: #7A3E48 !important;
-    
+
 }
 
 .marginLogo {
@@ -133,18 +134,32 @@ nav {
 }
 
 /*Fin del Formulario de registro*/
+
 /* Estilos de las cards */
 .card {
     box-shadow: 5px 5px 20px;
     cursor: pointer;
+    width: 220px;
+    height: 200px;
+    transition: transform 1s;
+}
+.card:hover{
+    transform: scale(1.3);
+}
+.card img {
+    width: 250px;
+    height: 150px;
+    max-width: 100%;
 }
 
 /* Fin de los Estilos de las cards */
+
 /* Card mapa */
-.card-body{
-        background-color: #F4C178 !important;
-        
+.card-body {
+    background-color: #F4C178 !important;
+
 }
+
 .card-body a {
     text-decoration: none;
     color: #7A3E48 !important;
@@ -161,6 +176,18 @@ h2 {
 /*Fin de las clases de centros culturales*/
 
 /*Estilos del modal de los centros culturales*/
+.modal-header {
+    background-color: #F9DBAA
+}
+
+.modal-body {
+    background-color: #FFF4DE;
+}
+
+.modal-footer button {
+    background-color: #3D3342;
+    color: rgb(202, 136, 49);
+}
 
 /* Final de los estilos del modal de los centros culturales */
 /* Footer */

@@ -31,3 +31,11 @@
 $('.carousel').carousel({
   interval: 1000 * 8
 });
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./estilos/mapa.css">
     <!-- Final de los estilos del mapa -->
     <!-- Estilos del calendario -->
-<link rel="stylesheet" href="./estilos/calendario.css">
+    <link rel="stylesheet" href="./estilos/calendario.css">
     <!-- Final de los estilos del calendario -->
     <title>irCulturapp</title>
 </head>
@@ -132,7 +132,9 @@
                         <section id="centrosCulturales">
                             <h2>Centros Culturales</h2>
                             <div class="row justify-content-center flex-wrap">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card" data-toggle="popover" title="Centro Cultural de Suba"
+                                    data-content="Aquí encontraras talleres de teatro, de música, de danza, eventos, ven a conocernos"
+                                    data-container="body">
                                     <a href="#centrosCulturales">
                                         <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
                                     </a>
@@ -143,7 +145,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <a href="#centrosCulturales">
                                         <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
                                     </a>
@@ -154,7 +156,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <a href="#centrosCulturales">
                                         <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
                                     </a>
@@ -165,7 +167,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <a href="#centrosCulturales">
                                         <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
                                     </a>
@@ -176,7 +178,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <a href="#centrosCulturales">
                                         <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
                                     </a>
@@ -187,7 +189,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <a href="#centrosCulturales">
                                         <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
                                     </a>
@@ -198,7 +200,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <a href="#centrosCulturales">
                                         <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
                                     </a>
@@ -225,7 +227,8 @@
         <!-- Final del modal de centros culturales -->
 
         <!-- Modal del calendario-->
-        <div class="modal fade" id="calendarioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="calendarioModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -235,59 +238,40 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                       <div class="calendarioCards d-flex flex-wrap justify-content-center align-items-center">
+                        <div class="calendarioCards d-flex flex-wrap justify-content-center align-items-center">
 
 
 
-        <div class="card colorCard mb-3" style="max-width: 18rem;">
-            <div class="card-header">Clase de canto</div>
-            <div class="card-body">
-                <h5 class="card-title">Centro cultural de Suba</h5>
-                <ul>
-                    <li>
-                        Miércoles 23 de noviembre del 2020
-                    </li>
-                    <li>
-                        Llegar 10 minutos antes
-                    </li>
-                    <li>
-                        Dirección: ...
-                    </li>
-                </ul>
-            </div>
+                            <div class="card colorCard mb-3">
+                                <div class="card-header">Clase de canto</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Centro cultural de Suba</h5>
 
-        </div>
+                                </div>
+                            </div>
 
-        <div class="card" style="width: 18rem;">
-            <a>
-                <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
-            </a>
+                            <div class="card">
+                                <a>
+                                    <img src="./images/centro-cultural.jpg" class="card-img-top" alt="...">
+                                </a>
+                               
 
-            <div class="card-body justify-content-center d-flex flex-column">
-                <a>
-                    Taller de marionetas
-                </a>
-                <div>
-                    <ul>
-                        <li>
-                            Miércoles 23 de noviembre del 2020
-                        </li>
-                        <li>
-                            Llegar 10 minutos antes
-                        </li>
-                        <li>
-                            Dirección: ...
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+
+                                <div class="card-body justify-content-center d-flex flex-column">
+                                    <a>
+                                        Taller de marionetas
+                                    </a>
+                                    <div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                       
+
                     </div>
                 </div>
             </div>
@@ -346,7 +330,7 @@
         <!-- Main de los eventos culturales -->
         <main class="row justify-content-center align-items-center">
             <!-- Cards de centros culturales -->
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <a data-toggle="modal" data-target="#centrosCulturalesModal">
                     <img src="./images/centro-cultural.jpg" class="card-img-top" alt="centroCultural">
                 </a>
@@ -361,7 +345,7 @@
 
             <!-- Cards del mapa -->
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <a href="#mapid">
                     <img src="./images/mapa.jpg" class="card-img-top" alt="...">
                 </a>
@@ -371,7 +355,7 @@
             </div>
 
             <!-- Card de videos y escenarios -->
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img src="./images/escenarios.jpg" class="card-img-top" alt="...">
                 <div class="card-body justify-content-center d-flex">
                     <p class="card-text">Videos y escenarios</p>
@@ -380,7 +364,7 @@
 
             <!-- Merchandising -->
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img src="./images/Merchandising.jpg" class="card-img-top" alt="...">
                 <div class="card-body justify-content-center d-flex">
                     <p class="card-text">Productos y servicios</p>
@@ -389,7 +373,7 @@
 
             <!-- Card de calendario -->
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <a data-toggle="modal" data-target="#calendarioModal">
                     <img src="./images/calendario.png" class="card-img-top" alt="calendario">
                 </a>
@@ -400,7 +384,7 @@
 
             <!-- Card de información -->
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <a href="#footer">
                     <img src="./images/informacion.jpg" class="card-img-top" alt="informacion">
                 </a>
