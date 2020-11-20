@@ -142,14 +142,17 @@ nav {
     width: 220px;
     height: 200px;
     transition: transform 1s;
-    max-width: 100%;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.3);
 }
+
 .card img {
     width: 220px;
     height: 150px;
+    max-width: 100%;
+
 }
 
 /* Fin de los Estilos de las cards */
